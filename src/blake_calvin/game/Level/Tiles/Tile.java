@@ -15,6 +15,14 @@ public abstract class Tile {
     public static final Tile GRASS2 = new BasicTile(3, 2, 0, 0xFF01E801);
     public static final Tile GRASS3 = new BasicTile(4, 3, 0, 0xFF01CD01);
     public static final Tile WATER = new AnimatedTile(5, new int[][] {{0,1}, {1,1}, {2,1}, {1,1}}, 0xFF5A9CAD, 500);
+    public static final Tile STONE_MID = new BasicSolidTile(6, 5, 0, 0xFFFF1616);
+    public static final Tile STONE_LEFT = new BasicSolidTile(7, 8, 0, 0xFFFF8080);
+    public static final Tile STONE_RIGHT = new BasicSolidTile(8, 7, 0, 0xFFA90707);
+    public static final Tile S_TOP_LEFT = new BasicSolidTile(9, 9, 0, 0xFFA447FB);
+    public static final Tile S_TOP_RIGHT = new BasicSolidTile(10, 10, 0, 0xFF8A12FB);
+    public static final Tile S_TOP_MID = new BasicSolidTile(11, 11, 0, 0xFF7E23D4);
+    public static final Tile STONE_SINGLE = new BasicSolidTile(12, 6, 0, 0xFF903E3E);
+
 
 
     protected byte id;
